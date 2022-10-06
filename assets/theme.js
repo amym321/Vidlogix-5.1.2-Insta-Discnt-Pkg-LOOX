@@ -3273,6 +3273,7 @@ lazySizesConfig.expFactor = 4;
       holder.append(div);
   
       // Setup quick view modal
+      console.log('1) //Setup quick view modal');
       var modalId = 'QuickShopModal-' + productId;
       var name = 'quick-modal-' + productId;
       new theme.Modals(modalId, name);
